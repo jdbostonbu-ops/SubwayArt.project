@@ -1,0 +1,94 @@
+
+.transition-zoom {
+  opacity: 1;
+  transition: 400ms;
+}
+
+
+html.is-animating .transition-zoom {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.vast-shadow-regular {
+  font-family: "Vast Shadow", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
+body {
+  background-image: url('2026Shutterstock2390603667.jpg');
+  color: white;
+
+}
+
+.nav-list a:hover {
+  color: black;
+  border-radius: 5px;
+}
+
+
+.nav-list a.active {
+  font-weight: bold;
+}
+
+.nav-list a.button {
+  background-color: black;
+  color: black;
+  padding: 0;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.nav-list {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: auto;
+    margin-left: 20px;
+    list-style: none;
+    color: black;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+    gap: 0px;
+    background-color: lavender;
+   
+}
+
+.content {
+  display: flex;
+  justify-content: center; 
+  align-items: center;  
+  height: 65vh;     
+  margin-bottom: 0px;
+  padding: 0;   
+}
+
+span {
+  
+  display: inline-block; 
+ 
+  transition: transform 0.2s ease-in-out; 
+  padding: 0 5px; 
+}
+
+span:hover {
+
+  transform: scale(2.3); 
+}
+
+
