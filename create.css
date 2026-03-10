@@ -92,3 +92,12 @@ span:hover {
 }
 
 
+.nav-links {
+  
+  transition: opacity 1.5s ease-out; 
+}
+
+.nav-links.fade-out {
+  
+  opacity: 0;
+}
