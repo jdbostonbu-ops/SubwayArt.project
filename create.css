@@ -53,20 +53,20 @@ body {
 }
 
 .nav-list {
-    height: 10vh;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-right: auto;
-    margin-left: 20px;
-    list-style: none;
-    color: black;
-    padding: 10px 15px;
-    transition: all 0.3s ease;
-    gap: 0px;
-    background-color: lavender;
-   
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  padding: 2em;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 1;
+  list-style: none;
+  color: black;
+  transition: all 0.3s ease;
+  gap: 0px;
+  background-color: lavender;
 }
 
 .content {
