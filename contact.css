@@ -77,6 +77,19 @@ body {
   background-color: lavender;
 }
 
+span {
+  
+  display: inline-block; 
+ 
+  transition: transform 0.2s ease-in-out; 
+  padding: 0 5px; 
+}
+
+span:hover {
+
+  transform: scale(1.3); 
+}
+
 #animated-text span{
 display:inline-block;
 transition: transform .25s ease;
