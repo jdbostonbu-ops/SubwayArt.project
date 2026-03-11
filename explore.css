@@ -16,12 +16,6 @@ html.is-animating .transition-zoom {
   font-style: normal;
 }
 
-h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 100px;
-}
 
 p {
     font-size: 20px;
@@ -31,10 +25,11 @@ p {
 body {
   background-image: url('2026 resized 2694820287.jpg');
   background-repeat: no-repeat;
-  background-position: center; 
-  background: cover;
+  background-position: center;
+  background-size: cover; 
+  min-height: 100vh;
+  margin: 0;
   color: white;
-
 }
 
 .nav-list a:hover {
@@ -73,27 +68,16 @@ body {
   background-color: lavender;
 }
 
-.content {
-  display: flex;
-  justify-content: center; 
-  align-items: center;  
-  height: 65vh;     
-  margin-bottom: 0px;
-  padding: 0;   
+
+#animated-text span{
+display:inline-block;
+transition: transform .25s ease;
 }
 
-span {
-  
-  display: inline-block; 
- 
-  transition: transform 0.2s ease-in-out; 
-  padding: 0 5px; 
+#animated-text span:hover{
+transform: scale(1.4);
 }
 
-span:hover {
-
-  transform: scale(2.3); 
-}
 
 
 .nav-links {
@@ -105,4 +89,17 @@ span:hover {
 
   opacity: 0;
 }
+
+.hero{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.hero h1{
+  font-size: 15vw;
+  line-height: 90%;
+}
+
 
