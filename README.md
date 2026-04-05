@@ -19,6 +19,7 @@ An immersive, interactive gallery dedicated to the raw aesthetic of urban subway
 | Browser / Device | Status | Performance Notes |
 | :--- | :--- | :--- |
 | **All Desktop Browsers** | ✅ Optimized | Full support for hover-triggered animations and audio syncing. |
+| **Safari Browser** | ⚠️ Partial | Functional only when you refresh between pages. Remains "glitchy" |
 | **iPad / Tablets** | ⚠️ Partial | Functional, but remains "glitchy" when switching between Portrait and Landscape modes. |
 | **iPhone (iOS)** | ❌ Not Supported | Mobile handset viewports are not currently optimized for this experience. |
 
