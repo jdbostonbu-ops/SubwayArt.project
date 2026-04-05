@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
 const textContainer = document.getElementById("animated-text");
 const audio = document.getElementById("hoverSound");
 
-const text = "Digital";
+const text = "Contact Us";
 
 
 const span = document.createElement("span");
