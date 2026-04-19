@@ -18,7 +18,7 @@ An immersive, interactive gallery dedicated to the raw aesthetic of urban subway
 
 | Browser / Device | Status | Performance Notes |
 | :--- | :--- | :--- |
-| **Google Chrome/Microsoft Edge** | ✅ Optimized | Full support for hover-triggered animations and audio syncing. |
+| **Google Chrome/Microsoft Edge** | ✅ Optimized | Full support for hover-triggered animations and Audio blocked: syncing after 1st click due to autoplay security policies.* |
 | **Safari** | ⚠️ Partial | Functional only when you refresh between pages. Remains "glitchy" |
 | **Firefoxr** | ⚠️ Partial | Audio does not initialize." |
 | **iPad / Tablets** | ⚠️ Partial | Functional, but remains "glitchy" when switching between Portrait and Landscape modes. |
